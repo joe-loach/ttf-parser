@@ -10,6 +10,7 @@ repository = "https://github.com/RazrFalcon/ttf-parser"
 documentation = "https://docs.rs/ttf-parser/"
 readme = "README.md"
 edition = "2018"
+rust-version = "1.63.0"
 exclude = ["benches/**"]
 
 [dependencies]
