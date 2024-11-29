@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.25.1] - 2024-11-29
+### Changed
+- Fix some typos and documentation related lints
+- Set MSRV in manifest to actual current value (1.63.0)
+- Update forge URL for ttf-parser and rustybuzz to harfbuzz org
+
 ## [0.25.0] - 2024-10-04
 ### Added
 - `STAT` table parsing. Thanks to [inferiorhumanorgans](https://github.com/inferiorhumanorgans).
@@ -510,7 +516,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Removed
 - `GDEF` table parsing.
 
-[Unreleased]: https://github.com/harfbuzz/ttf-parser/compare/v0.25.0...HEAD
+[Unreleased]: https://github.com/harfbuzz/ttf-parser/compare/v0.25.1...HEAD
+[0.25.1]: https://github.com/harfbuzz/ttf-parser/compare/v0.25.0...v0.25.1
 [0.25.0]: https://github.com/harfbuzz/ttf-parser/compare/v0.24.1...v0.25.0
 [0.24.1]: https://github.com/harfbuzz/ttf-parser/compare/v0.24.0...v0.24.1
 [0.24.0]: https://github.com/harfbuzz/ttf-parser/compare/v0.23.0...v0.24.0
