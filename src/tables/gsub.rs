@@ -1,7 +1,7 @@
 //! A [Glyph Substitution Table](https://docs.microsoft.com/en-us/typography/opentype/spec/gsub)
 //! implementation.
 
-// A heavily modified port of https://github.com/RazrFalcon/rustybuzz implementation
+// A heavily modified port of https://github.com/harfbuzz/rustybuzz implementation
 // originally written by https://github.com/laurmaedje
 
 use crate::opentype_layout::{ChainedContextLookup, ContextLookup, Coverage, LookupSubtable};

@@ -5,7 +5,7 @@
 // Specifically, the State Machine Tables. I have no idea how to generate them.
 // And all fonts that use this table are mainly Apple one, so we cannot use them for legal reasons.
 //
-// On the other hand, this table is tested indirectly by https://github.com/RazrFalcon/rustybuzz
+// On the other hand, this table is tested indirectly by https://github.com/harfbuzz/rustybuzz
 // And it has like 170 tests. Which is pretty good.
 // Therefore after applying any changes to this table,
 // you have to check that all rustybuzz tests are still passing.
